@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  background-color: aliceblue; 
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  border: solid 1px black;
+
+}
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.nav-titles {
+  text-decoration: none;
+  color: aqua;
+}
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin: 2%;
+}
+.about-me-item {
+  display: column;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+
+.profile-image {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 7.5px;
+  margin-top: 35%;
+  border-radius: 5px; 
+  border-style: groove;
+  
+
+}
+
+.projectmain {
+    width: 100%;
+    height:500px
+}
+
+.project-image {
+width:100%;
+height: 250px;
+margin:0;
+padding:10px;
+float: left;
+object-fit: cover
+}
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 2%;
+}
+
+.project-items {
+  display: flex;
+  flex-direction:row;
+  border: 1px solid black;
+  height:50%;
+  width: 50%
+}
+
+.project-item p a {
+
+
+}
+
+.contact-container {
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    align-items: center; 
+    margin:0;
+}
+
+.contact-items {
+display:flex;
+float: left;
+
+}
+
+.contact-image {
+height:100%;
+width:100%;
+padding: 15px;
+margin: 10px;
+
+
+}
+
+
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+
+.nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-item {
+    flex-direction: column;
+    border: solid 1px black;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .about-me-container {
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 4%;
+  }
+  .about-me-item {
+    flex-direction: column;
+    border: 1px solid black;
+  }
+  .profile-image {
+    height: 100%;
+    width: 96%;
+  } 
+}
