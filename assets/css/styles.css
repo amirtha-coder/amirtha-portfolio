@@ -19,6 +19,7 @@ body {
     line-height: 1.2;
    
 }
+ 
 
 /* navbar */
 
@@ -58,25 +59,26 @@ body {
   margin: 2%;
   color: var(--white);
   background-color: var(--ming);
-  margin-bottom: 10vh;
 }
 /* about me contains image icon and text */
+
 .about-me-item {
   display: column;
   flex-direction: row;
   position: relative;
+  margin:0%
 }
 
 .profile-image {
-display: flex;
-justify-content: center;
-align-items: center;
 max-height: 100%;
 max-width: 100%;
 padding: 5px;
 border-radius : 25px; 
 object-fit: contain;
+}
 
+.wave{
+display:inline-block
 }
 
 /* css for semantic html refactor project */
@@ -178,6 +180,7 @@ footer p {
     text-align: center;
 }
 
+
 /* media queries compatibile for phone on potrait mode */
 
 @media screen and (max-device-width: 596px) and (orientation:portrait) {
@@ -227,8 +230,4 @@ display:flex;
 flex-direction: column;
 }
 
-}
-
-@keyframes identifier {
-    
 }
