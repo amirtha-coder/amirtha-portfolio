@@ -16,8 +16,7 @@
 body {
     /* background-color: var(--white); */
     background-image: url(./assets/images/backgroundimage.jpeg);
-    line-height: 1.2;
-   
+    line-height: 1.2;  
 }
  
 
@@ -31,6 +30,7 @@ body {
   border-radius: 10px;
   box-shadow: var(--gainsboro);
   background-color: var(--jet);
+   margin-bottom: 5vh;
 
 }
 .nav-item {
@@ -59,6 +59,8 @@ body {
   margin: 2%;
   color: var(--white);
   background-color: var(--ming);
+  margin-bottom: 10vh;
+
 }
 
 /* about me contains image icon and text */
@@ -84,9 +86,16 @@ display:inline-block
 
 /* css for semantic html refactor project */
 
+.hr-lines {
+  text-align: center;
+}
+
+
 .mainproject {
 background-color: var(--lightslategrey);
 margin-bottom: 5vh;
+width:100vw;
+
 }
 
 .projectmain {
@@ -101,7 +110,7 @@ text-align: center;
 }
 
 
-
+/* other projects */
 .project-container {
   display: flex;
   flex-direction: row;
@@ -116,7 +125,7 @@ text-align: center;
 .project-items {
   display: flex;
   flex-direction :row;
-  border: 1px solid black;
+  border-left: 3px solid black;
   height: 11rem;
   width: 40vw;
   margin: 20px;
@@ -126,6 +135,7 @@ text-align: center;
 
 }
 .image-container {
+   position: absolute;
     height:100%;
     width:100%;
     margin:0;
@@ -133,10 +143,10 @@ text-align: center;
 }
 
 .project-items img {
-flex-direction: row;
-height:100%;
+position: relative;
+height:  100%;
 width: 100%;
-object-fit: contain;
+object-fit:fill;
 padding: 0;
 margin: 0;
 }
@@ -154,7 +164,6 @@ background-color:rgba( 52, 52, 52, 0.4)
     display:flex; 
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
     height: 100%;
     width: 100%; 
     justify-content: center;
@@ -175,13 +184,17 @@ width: 50px;
 padding: 15px;
 margin: 10px;
 
-
 }
-footer p {
+.footer p {
     text-align: center;
+    background-color: var(--gainsboro);
 }
 
+.footer h3 {
+  background-color: var(--ming);
+  color: var(--white);
 
+}
 /* media queries compatibile for phone on potrait mode */
 
 @media screen and (max-device-width: 596px) and (orientation:portrait) {
