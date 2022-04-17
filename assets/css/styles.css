@@ -86,11 +86,12 @@ display:inline-block
 
 /* css for semantic html refactor project */
 
+/* header tags on page */
 .hr-lines {
   text-align: center;
 }
 
-
+/* first project- Horiseon Marketing agency */
 .mainproject {
 background-color: var(--lightslategrey);
 margin-bottom: 5vh;
