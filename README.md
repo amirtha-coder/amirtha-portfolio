@@ -27,7 +27,7 @@ A personal portfolio made with HTML and CSS.
 
 ## Deployed URL 
 
-Click the link [here] (https://amirtha-coder.github.io/amirtha-portfolio/) to access the webpage.
+Click the link [here]s(https://amirtha-coder.github.io/amirtha-portfolio/) to access the webpage.
 
 ## Previous projects
 
