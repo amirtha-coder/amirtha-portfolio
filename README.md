@@ -14,9 +14,13 @@ A personal portfolio made with HTML and CSS.
 
 ### amirtha-portfolio  before![My portfolio before](./assets/images/amirtha-portfolio%20before.png "before")
 
+
+
 ## After
 
 ### amirtha-portfolio after![ My portfolio after](./assets/images/amirtha-portfolio%20after.png "after")
+
+### amirtha-portfolio mobile-version after![ My portfolio after](./assets/images/amirtha-portfolio-mobileversion.png "after")
 
 ## Technologies
 
@@ -31,7 +35,6 @@ Click the link [here](https://amirtha-coder.github.io/amirtha-portfolio/) to acc
 
 ## Previous projects
 
-##### Project 1: semantic HTML and adding CSS to refactor the webpage for a marketing agency 
-
-Click the link [here](https://winner-am1.github.io/semantic_html_refactor/) to access the webpage.
-
+- #### Project 1: semantic HTML and adding CSS to refactor the webpage for a marketing agency Click the link [here](https://winner-am1.github.io/semantic_html_refactor/) to access the webpage.
+- ...PENDING...
+-  ...PENDING...
