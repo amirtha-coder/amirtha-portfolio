@@ -59,7 +59,6 @@ body {
   margin: 2%;
   color: var(--white);
   background-color: var(--ming);
-  opacity: 0.75;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
     rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
@@ -129,12 +128,14 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 5vh;
+  margin-top: 5vh;
   background-color: var(--indigo-dye);
   width: 100vw;
 }
 
 .projectmain {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
   display: flex;
   flex-direction: row;
   border-left: 5px solid black;
@@ -144,9 +145,25 @@ body {
   object-fit: cover;
   border-image-width: 10px;
 }
+.projectmain:hover {
+  transform: scale(1.03);
+}
 
 h3 {
   text-align: center;
+  color: white;
+}
+
+.github-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-div img {
+  height: 3vh;
+  width: 5vw;
 }
 
 /* other projects */
@@ -161,6 +178,8 @@ h3 {
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   margin-bottom: 10vh;
+  padding: 0;
+  border-bottom: solid var(--ming);
 }
 
 .project-items {
@@ -175,6 +194,11 @@ h3 {
   text-align: center;
   color: white;
 }
+
+.project-items:hover {
+  transform: scale(1.03);
+}
+
 .image-container {
   position: absolute;
   height: 100%;
@@ -203,7 +227,8 @@ h3 {
 
 /* contacts */
 
-.contact-container {
+.contact-container,
+.cv-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -212,7 +237,6 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: 0;
-  margin-bottom: 10vh;
 }
 
 .contact-items {
