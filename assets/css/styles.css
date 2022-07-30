@@ -125,8 +125,8 @@ body {
 /* first project- Horiseon Marketing agency */
 .mainproject {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   margin-top: 5vh;
   background-color: var(--indigo-dye);
@@ -161,9 +161,9 @@ h3 {
   align-items: center;
 }
 
-.github-div img {
-  height: 3vh;
-  width: 5vw;
+.github-div {
+  display: flex;
+  flex-direction: row;
 }
 
 /* other projects */
@@ -280,6 +280,13 @@ h3 {
     border: 1px solid black;
     margin: 4%;
   }
+  .image-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0;
+  }
   .about-me-item {
     flex-direction: column;
     border: 1px solid black;
@@ -299,7 +306,15 @@ h3 {
 
   .project-items {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    border-left: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 20vh;
+    width: 87vw;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
   }
 
   .contact-container {
